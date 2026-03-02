@@ -313,7 +313,7 @@ readp "Выберите [1-2]: " menu
 if [ -z "$menu" ] || [ "$menu" = "1" ] ; then
 zqzs
 else
-bash <(curl -Ls https://raw.githubusercontent.com/vasyakin/Acme/refs/heads/main/Acme-yonggekkk.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MyNicknme/Acme/refs/heads/main/Acme-yonggekkk.sh)
 if [[ ! -f /root/ygkkkca/cert.crt && ! -f /root/ygkkkca/private.key && ! -s /root/ygkkkca/cert.crt && ! -s /root/ygkkkca/private.key ]]; then
 red "Не удалось получить сертификат Acme, продолжаем использовать самоподписанный сертификат" 
 zqzs
@@ -4625,7 +4625,7 @@ rm /tmp/crontab.tmp
 
 lnsb(){
 rm -rf /usr/bin/sb
-curl -L -o /usr/bin/sb -# --retry 2 --insecure https://raw.githubusercontent.com/vasyakin/4protocols/refs/heads/main/4p.sh
+curl -L -o /usr/bin/sb -# --retry 2 --insecure https://raw.githubusercontent.com/MyNicknme/4protocols/refs/heads/main/4p.sh
 chmod +x /usr/bin/sb
 }
 
@@ -4713,7 +4713,7 @@ iptables -t nat -F PREROUTING >/dev/null 2>&1
 netfilter-persistent save >/dev/null 2>&1
 service iptables save >/dev/null 2>&1
 green "Удаление Sing-box завершено!"
-blue "Добро пожаловать в использование скрипта Sing-box-yg: bash <(curl -Ls https://raw.githubusercontent.com/vasyakin/4protocols/refs/heads/main/4p.sh)"
+blue "Добро пожаловать в использование скрипта Sing-box-yg: bash <(curl -Ls https://raw.githubusercontent.com/MyNicknme/4protocols/refs/heads/main/4p.sh)"
 echo
 }
 
@@ -4828,11 +4828,11 @@ fi
 
 acme(){
 #bash <(curl -Ls https://gitlab.com/rwkgyg/acme-script/raw/main/acme.sh)
-bash <(curl -Ls https://raw.githubusercontent.com/vasyakin/Acme/refs/heads/main/Acme-yonggekkk.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MyNicknme/Acme/refs/heads/main/Acme-yonggekkk.sh)
 }
 cfwarp(){
 #bash <(curl -Ls https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh)
-bash <(curl -Ls https://raw.githubusercontent.com/vasyakin/warp/refs/heads/main/CFwarp.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MyNicknme/warp/refs/heads/main/CFwarp.sh)
 }
 bbr(){
 if [[ $vi =~ lxc|openvz ]]; then
