@@ -13,4 +13,4 @@
 Для быстрой установки выполните следующую команду:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/vasyakin/4protocols/main/4p.sh)
+bash <(curl -Ls (https://raw.githubusercontent.com/MyNicknme/4protocols/refs/heads/main/4p.sh))
